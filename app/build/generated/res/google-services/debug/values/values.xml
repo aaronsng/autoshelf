@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">316754997007-1bpd6sf9ejnqapcl2jve7ehtomllqov7.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://lit-hacks.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">316754997007</string>
+    <string name="google_api_key" translatable="false">AIzaSyBu_B3iQ6sL-YgRk8lWYLngJSk7x_91zXQ</string>
+    <string name="google_app_id" translatable="false">1:316754997007:android:3a62b8ecb594179c17987a</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBu_B3iQ6sL-YgRk8lWYLngJSk7x_91zXQ</string>
+    <string name="google_storage_bucket" translatable="false">lit-hacks.appspot.com</string>
+    <string name="project_id" translatable="false">lit-hacks</string>
+</resources>
