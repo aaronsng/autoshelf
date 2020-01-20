@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "316754997007",
+    "firebase_url": "https://lit-hacks.firebaseio.com",
+    "project_id": "lit-hacks",
+    "storage_bucket": "lit-hacks.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:316754997007:android:3a62b8ecb594179c17987a",
+        "android_client_info": {
+          "package_name": "lit.lads.cataloguev3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "316754997007-9f3cls23vht59nfaeljkpbl86dd1a0kg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "lit.lads.cataloguev3",
+            "certificate_hash": "a02920bec075b8f8286b5cdedb577b4963d0ec6a"
+          }
+        },
+        {
+          "client_id": "316754997007-1bpd6sf9ejnqapcl2jve7ehtomllqov7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBu_B3iQ6sL-YgRk8lWYLngJSk7x_91zXQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "316754997007-1bpd6sf9ejnqapcl2jve7ehtomllqov7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

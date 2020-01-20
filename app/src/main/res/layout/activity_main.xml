@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/prendrePhoto">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:text="Take Photo"
+            app:layout_constraintBottom_toTopOf="@id/imageview"
+            tools:layout_editor_absoluteX="10dp"
+            tools:layout_editor_absoluteY="74dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="200sp"
+            android:text="Hello World!"
+            android:id="@+id/imageview"
+            android:layout_below="@id/button"
+            app:layout_constraintTop_toBottomOf="@id/button"
+            android:contentDescription="TODO" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="TODO"
+            android:layout_below="@id/imageview"
+            app:layout_constraintTop_toBottomOf="@id/imageview" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/prendrePhoto"
+        android:id="@+id/mainContent"
+        android:background="@xml/rounded_rect_shape"
+        >
+        <TextView
+            android:id="@+id/characteristicsHeader"
+            android:layout_alignParentTop="true"
+            android:text="Characteristics"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:padding="10dp"
+            />
+
+        <TextView
+            android:id="@+id/characteristics"
+            android:layout_below="@id/characteristicsHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            />
+
+
+        <TextView
+            android:id="@+id/colorsHeader"
+            android:textStyle="bold"
+            android:text="Colours"
+            android:layout_below="@id/characteristics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            />
+
+        <TextView
+            android:id="@+id/coloursX"
+            android:layout_below="@id/colorsHeader"
+            android:text="Colours"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            />
+
+    </RelativeLayout>
+    <Button
+        android:id="@+id/catalogue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Catalogue"
+        android:layout_gravity="bottom"
+        app:layout_constraintEnd_toEndOf="@id/mainContent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
